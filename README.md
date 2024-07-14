@@ -1,6 +1,5 @@
 # ToDo App
 
-![App Screenshot](screenshot.png)
 
 A simple and elegant ToDo application built using HTML, CSS, and JavaScript. This app allows users to manage their tasks efficiently with features like adding new tasks, marking tasks as completed, and deleting tasks.
 
