@@ -14,7 +14,7 @@ A simple and elegant ToDo application built using HTML, CSS, and JavaScript. Thi
 
 ## Demo
 
-You can view a live demo of the ToDo App [here]([https://example.com/todo-app](https://magical-rugelach-6c0cd9.netlify.app/)).
+You can view a live demo of the ToDo App [here](https://magical-rugelach-6c0cd9.netlify.app/)
 
 ## Installation
 
