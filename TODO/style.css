@@ -1,0 +1,92 @@
+body {
+    font-family: "Caveat", cursive;
+    background: url('pexels-breakingpic-3243.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #8D493A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 30px;
+}
+
+.header {
+    width: 100%;
+    text-align: center;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.3); /* Transparent white background */
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+input[type="text"]::placeholder {
+    color: black;
+}
+
+form {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid ;
+    border-radius: 0;
+    margin-right: 10px;
+    background: transparent;
+    color: #333;
+    font-family: "Caveat", cursive;
+}
+
+button[type="submit"] {
+    font-family: "Caveat", cursive;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #8D493A;
+    color: #fff;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #6e3729; 
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #e67e22;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li .delete-icon {
+    background-color: transparent;
+    border: none;
+    color: #fff; 
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 10px;
+}
+
+li .delete-icon:hover {
+    color: #c0392b; 
+}
